@@ -8,9 +8,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/tailwind.output.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <title>Journalcrypt</title>
-  <body>
-      <h1 class="font">Hello this is Montserrat Font</h1>
+  <body class="bg-dark text-white">
+    <section id="main" class="h-screen grid grid-cols-6 px-48 pb-48 content-center items-center">
+      <div class="col-span-4">
+        <h1 class="text-4xl font-bold mb-10">An Encrypted, Easy-to-use, Online Journal</h1>
+        <div>
+          <p class="text-lg mb-2">Sign up now to get notified at release</p>
+          <form class="flex flex-row gap-2">
+            <input type="text" name="email" class="transition duration-300 ease-in-out shadow-lg appearance-none bg-dark-400 rounded-sm w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline placeholder-dark-600" style="width: 500px;" placeholder="Enter your email">
+            <button class="transition duration-300 ease-in-out py-2 px-4 bg-primary rounded-sm text-white font-semibold hover:bg-primary-dark focus:outline-none">Waitlist Me!</button>
+          </form>
+      </div>
+      </div>
+      <div class="col-span-2">
+        <img src="./assets/note_taking_flatline.svg" alt="">
+      </div>
+    </section>
+    <section id="features" class="h-screen grid grid-cols-6 px-48 pb-48 content-center items-center">
+     hello these are features
+    </section>
   </body>
+  <script src="./js/main.js"></script>
 </html>
