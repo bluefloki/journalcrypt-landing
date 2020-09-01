@@ -3,6 +3,10 @@
   --primary-color-dark: #cf4b4c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow: overlay;
 }
